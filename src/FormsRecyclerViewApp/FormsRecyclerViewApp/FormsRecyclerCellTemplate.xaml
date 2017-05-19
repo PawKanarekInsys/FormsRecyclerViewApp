@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<self:FormsRecyclerCell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:self="clr-namespace:FormsRecyclerViewApp;assembly:FormsRecyclerViewApp" x:Class="FormsRecyclerViewApp.FormsRecyclerCellTemplate">
+  <Grid>
+    <Label Grid.Row="0" Text="{Binding .}" BackgroundColor="Blue" />
+    <Label Grid.Row="1" HorizontalOptions="Start" Text="Horizontal Start"  BackgroundColor="AliceBlue"/>
+    <Label Grid.Row="2" HorizontalOptions="StartAndExpand" Text="Horizontal StartAndExpand" BackgroundColor="AliceBlue" />
+    <Label Grid.Row="3" HorizontalOptions="Fill" Text="Horizontal Fill" BackgroundColor="Aqua" />
+    <Label Grid.Row="4" HorizontalOptions="FillAndExpand" Text="Horizontal FillAndExpand" BackgroundColor="Aqua" />
+    <Label Grid.Row="5" HorizontalOptions="Center" Text="Horizontal Center" BackgroundColor="Bisque" />
+    <Label Grid.Row="6" HorizontalOptions="CenterAndExpand" Text="Horizontal CenterAndExpand" BackgroundColor="Bisque" />
+    <Label Grid.Row="7" HorizontalOptions="End" Text="Horizontal End" BackgroundColor="BlanchedAlmond" />
+    <Label Grid.Row="8" HorizontalOptions="EndAndExpand" Text="Horizontal EndAndExpand" BackgroundColor="BlanchedAlmond" />
+    <Label Grid.Row="9" Text="Horizontal Default" BackgroundColor="Azure"/>
+    <BoxView Grid.Row="10" BackgroundColor="Green" />
+  </Grid>
+</self:FormsRecyclerCell>
