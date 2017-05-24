@@ -123,7 +123,8 @@ namespace FormsRecyclerViewApp.Droid
             {
                 view.Click += MainView_Click;
             }
-
+            
+            fastCell.Parent = this.Element;
             var dpW = this.ConvertDpToPixels(this.Element.ItemWidth);
             var dpH = this.ConvertDpToPixels(this.Element.ItemHeight);
             view.SetMinimumWidth(dpW);
